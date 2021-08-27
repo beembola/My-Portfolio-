@@ -6,12 +6,32 @@ html {
     height: 100%;
 }
 
+body{
+ font-family: poppins;
+}
+
 ul{
     list-style: none;
 }
 
 a{
     text-decoration: none;
+}
+
+.navbar {
+    background: #813772;
+    width:100%;
+}
+
+.navbar ul{
+    float: center;
+    margin-right:20px; 
+}
+
+.navbar ul li {
+    display: inline-block;
+    line-height: 120px;
+    margin: 0 5px;
 }
 
 .image{
