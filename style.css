@@ -62,8 +62,15 @@ a.active, a:hover{
 }
 .profile img{
     object-fit: contain;
-    width:500px;
+    /* width:500px;
     height: 500px;
+    border-radius: 50%; */
+    position: auto;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+
 }
 
 .content{
@@ -105,7 +112,15 @@ width: 500px;
      box-shadow: 4px 10px 30px rgba(red, green, blue, alpha)
     }
 
-
+.skills{
+     padding-top: 20px;
+}
+  .skill-header{
+      text-align: center;
+      color: #008200;
+      padding:1rem;
+      position:relative
+  }
 @media only screen and (max-width: 400px) {
     /* For mobile phones: */
     ul{
