@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="My personal portfolio website for job">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type=".images/X-UA-Compatible" href="./images/logo_small_icon_only.png">
     <title> My Personal Portfolio Website </title>
 </head>
 
 <body>
 
-<nav class="navbar">
+<header>
+    <img class="logo" src="images/logo_white_large.png">
+
+    <p> “Recognize and embrace your uniqueness...<br>Being a Black woman, being a woman in general, on a team of all men, means that you are going to have a unique voice. It’s important to embrace that.” <br>- Erin Teague</p>
+</header>
+
+<nav>
     <ul>
         <li> <a class="active" href=#about>About </a></li>
         <li> <a href="#experience">Experience</a></li>
@@ -23,26 +31,20 @@
 
 
 <main>
-
-    <section id="home">
-        <div class="main">
-            <div class="bgimage">
-            <h1 class="headings">Hello, I AM <br> Bimbola Lasisi</h1>
-            <button class="bnt">
-                Hire me
-            </button>
-
-            </div>
+    <section id="intro">
+          
+     <div class="intro-wrapper">
+            <h1>  I AM <span></span></h1>
+             <p>I am Mother, carer and Aspiring to be Full stack Developer </p>
+    <a href="#contact">Contact me</a>
         </div>
-    </section>
+</section>
 
     <hr>
-    <section id="about">
-        <div id="about-pic">
-            <h1 class="about-headings"> About Me </h1>
-            <img src="images/myeditpic.jpg" alt="">
-        </div>
-        <div id="about-intro">
+    <section class="about-intro">
+        <img src="images/myeditpic.jpg" alt=" bimbola image">
+
+        <article>
             <h2> Bimbola Lasisi</h2>
             <p>Aspiring to be Full stack Developer, </p>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -59,12 +61,9 @@
                 readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
                 default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
                 infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                (injected humour and the like).
-
-            </p>
+                (injected humour and the like).</p>
             <a href="#project" class="portfolio-btn">Find my project below</a>
-        </div>
-        </div>
+            </article>
 
     </section>
 
@@ -180,11 +179,12 @@
                 Ensured high quality deliverables by following defined processes.
                 Managed to simultaneously work on multiple projects without deviation.r ....</p>
         </div>
+
         <div class="skill-img">
 
         </div>
         </section>
-
+</main>
         <!-- <section class="about">
             <h1> About Me</h1>
             <p> Hello i am Bimbola Lasisi </p>
@@ -240,5 +240,5 @@
             </footer> -->
 
 </main>
-</body>
+
 </html>
